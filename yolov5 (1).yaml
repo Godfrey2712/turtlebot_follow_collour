@@ -1,0 +1,16 @@
+yolo_model:
+
+  config_file:
+    name: yolov5.cfg
+  weight_file:
+    name: weights
+  threshold:
+    value: 0.5
+  detection_classes:
+    names:
+      - red_balloons
+      - green_balloons
+      - blue_balloons
+      
+      
+ 
